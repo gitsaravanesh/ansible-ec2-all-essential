@@ -1,5 +1,5 @@
 - name: Install htop and nginx on EC2 instance
-  hosts: ec2
+  hosts: ec2-server-list
   become: yes
   tasks:
     - name: Update apt cache
